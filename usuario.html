@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario</title>
+    <link rel="stylesheet" href="static/CSS/normalize.min.css">
+    <link rel="stylesheet" href="static/CSS/style.css">
+    <script src="JS/script.js"></script>
+</head>
+<body>
+    <header>
+        <article>
+            <div class="encabezado">
+                <div class="logo">
+                    <img src="static/img/logo.jpg") }} >
+                </div>
+                <div class="usuario">
+                    <label>Nombre de usuario</label>
+                    <input type="button" value="Cerrar sesion" name="cerrar sesion">
+                </div>
+            </div>            
+        </article>
+    </header>
+    <section>
+        <article class="disponibles">
+            <h3> Vuelos Disponibles</h3>
+            <div class="buscard">
+                <label>Origen</label>
+                <input type="text">
+                <label>Destino</label>
+                <input type="text">
+                <input type="button" value="Buscar" name="Buscar disponibles">
+            </div>            
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>Vuelo</th>
+                        <th>Origen</th>
+                        <th>Destino</th>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Asientos Disponibles</th>
+                        <th>Reservar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th></th>
+                        <td>KR30</td>
+                        <td>Bogotá</td>
+                        <td>Barranquilla</td>
+                        <td>10/10/2021</td>
+                        <td>09:00 a.m</td>
+                        <td>
+                            <select>
+                                <option value="No seleccionado" selected>No seleccionado</option>
+                                <option value="Asiento 1">Asiento 1 </option>   
+                            </select>
+                        </td>
+                        <td><input type="button" value="Reservar"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </article>
+        <article class="salidas">
+            <h3> Salidas y Llegadas </h3>
+            <div class="codigor">
+                <label>Buscar vuelo</label>
+                <input type="text" placeholder="Ingrese su codigo de reserva">
+                <input type="button" value="Buscar" name="Buscar reserva">
+            </div>            
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>Vuelo</th>
+                        <th>Avión</th>
+                        <th>Piloto</th> 
+                        <th>Origen</th>
+                        <th>Destino</th>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Asiento</th>
+                        <th>Estado del vuelo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th></th>
+                        <td>KR30</td>
+                        <td>LVF341</td>
+                        <td>Pepito Perez</td>
+                        <td>Bogotá</td>
+                        <td>Barranquilla</td>
+                        <td>10/10/2021</td>
+                        <td>09:00 a.m</td>
+                        <td>Asiento 1</td>
+                        <td>Aterrizando <input type="button" value="Calificar Experiencia"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </article>
+
+    </section>
+    <footer>
+        <div class="pie">
+            <div class="iconos">
+                    <div class="telefono">
+                        <span class="icon-phone">3625566</span>
+                    </div>
+                    
+                    <div class="direccion">
+                        <span class="icon-location2">cra 45 h 65</span>
+                    </div>
+                    
+                    <div class="copyright">
+                        <span class="icon-cop">Todos los derechos reservados</span>
+                    </div>
+                    
+            </div>
+            <div class="redes">
+                <div class="facebook">
+                    <span class="icon-facebook"></span>
+                </div>
+                <div class="youtube">
+                    <span class="icon-youtube"></span>
+                </div>
+                <div class="correo">
+                    <span class="icon-mail4"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
