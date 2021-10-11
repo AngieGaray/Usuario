@@ -17,6 +17,7 @@ header article .encabezado{
     background-color: white;
     border: solid;
     border-radius: 20px 20px 20px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header article .encabezado img{
@@ -30,8 +31,8 @@ header article .usuario{
     color: black;
     padding-top: 30px;
     padding-left: 780px;
-    margin-right: 5px;
-   
+    margin-right: 5px;  
+    font-size: 14px; 
 }
 
 footer .pie {
@@ -87,39 +88,95 @@ footer .pie .redes .icon-mail4::before{
     content: "\e901";
 }
 
-
 body{
     background: #e8e8e8;
 }
 
 section .disponibles{
     margin-bottom: 50px;  
-    margin-top: 35px;   
+    margin-top: 35px; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 75%;
+    background-color: white;
+    border: solid;
+    border-radius: 20px 20px 20px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
-section .salidas{
-    margin-top: 35px;  
-    margin-bottom: 80px;   
-}
+
 section .disponibles h3{
     text-align: center; 
-    margin-bottom: 50px;   
+    margin-bottom: 30px;  
 }
+
 section .disponibles .buscard{
-    text-align: center;
-    margin-bottom: 25px;
+    display: flex;
+    margin-bottom: 40px;
 }
+
+section .disponibles .buscard .origen label{
+    margin-right: 15px;
+}
+
+section .disponibles .buscard .origen{
+    margin-left: auto;
+}
+
+section .disponibles .buscard .destino{
+    margin-left: 40px;
+
+}
+
+section .disponibles .buscard .destino label{
+    margin-right: 15px;
+}
+
+section .disponibles .buscard .boton{
+    margin-right: auto;
+    margin-left: 40px;
+}
+
 section .disponibles table{
     margin: auto;
     margin-bottom: 20px;
 }
+
+section .salidas{
+    margin-top: 35px;  
+    margin-bottom: 80px;  
+    margin-left: auto;
+    margin-right: auto; 
+    width: 75%;
+    background-color: white;
+    border: solid;
+    border-radius: 20px 20px 20px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
 section .salidas h3{
     text-align: center; 
-    margin-bottom: 50px;   
+    margin-bottom: 30px;   
 }
+
 section .salidas .codigor{
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+    display: flex;
 }
+
+section .salidas .codigor .codigo{
+    margin-left: auto;
+}
+
+section .salidas .codigor .codigo label{
+    margin-right: 15px;
+}
+
+section .salidas .codigor .boton{
+    margin-right: auto;
+    margin-left: 40px;
+}
+
 section .salidas table{
     margin: auto;
     margin-bottom: 20px;

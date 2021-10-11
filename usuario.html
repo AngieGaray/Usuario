@@ -27,11 +27,17 @@
         <article class="disponibles">
             <h3> Vuelos Disponibles</h3>
             <div class="buscard">
-                <label>Origen</label>
-                <input type="text">
-                <label>Destino</label>
-                <input type="text">
-                <input type="button" value="Buscar" name="Buscar disponibles">
+                <div class="origen">
+                    <label>Origen: </label>
+                    <input type="text">
+                </div>
+                <div class="destino">
+                    <label>Destino: </label>
+                    <input type="text">
+                </div>
+                <div class="boton">
+                    <input type="button" value="Buscar" name="Buscar disponibles">
+                </div>                  
             </div>            
             <table border="1">
                 <thead>
@@ -69,9 +75,13 @@
         <article class="salidas">
             <h3> Salidas y Llegadas </h3>
             <div class="codigor">
-                <label>Buscar vuelo</label>
-                <input type="text" placeholder="Ingrese su codigo de reserva">
-                <input type="button" value="Buscar" name="Buscar reserva">
+                <div class="codigo">
+                    <label>Buscar vuelo: </label>
+                    <input name ="textcodigo" type="text" placeholder="Ingrese su codigo de reserva" size="26px">  
+                </div>
+                <div class="boton">
+                    <input type="button" value="Buscar" name="Buscar reserva">
+                </div>           
             </div>            
             <table border="1">
                 <thead>
